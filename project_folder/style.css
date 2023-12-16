@@ -1,0 +1,141 @@
+*{margin: 0; padding: 0}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: row;
+    max-width: 100vw;
+    font-size: 36px;
+}
+
+div .photo {
+    width: 150px;
+    height: auto;
+    border-radius: 100%;
+    margin-left: 15px;
+}
+
+.left-profilePhoto > .photo {
+    width: 150px;
+    height: auto;
+    border-radius: 100%;
+}
+
+.left{
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    border: 1px solid black;
+    min-height: 90vh;
+}
+
+
+
+.left-profile {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: left;
+    align-items: center;
+    border: 1px solid black;
+    min-height: 10vh;
+}
+
+.tab-projectMembers{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: left;
+    align-items: center;
+    border: 1px solid black;
+    min-height: 4vh;
+}
+
+.star img{
+    width: 40px;
+    height: auto;
+    margin-left: 15px;
+}
+
+.projectMembers-text p {
+    font-size: 42px
+}
+
+.title-newList{
+    margin-top: 77vh;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: left;
+    align-items: center;
+    border: 1px solid black;
+    min-height: 4vh;
+}
+
+.title-newList img {
+    width: 40px;
+    height: auto;
+    margin-left: 15px;
+}
+
+.title-newList button {
+    width:max-content;
+    padding: 5px 8px;
+    font-size: 42px;
+}
+
+#projectMembers {
+    display: flex;
+    flex: 7;
+    flex-direction: column;
+    border: 1px solid black;
+    min-height: 90vh;
+    background-color: lightpink;
+}
+
+.title-projectMembers{
+    border: 1px solid black;
+    min-height: 10vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 50px;
+    padding-left: 3vw;
+}
+
+.title-projectMembers img {
+    width: 100px;
+    height: auto;
+    
+}
+
+.title-projectMembers p {
+    font-size: 80px;
+    color:mediumblue;
+    font-weight: bold;
+}
+
+
+.name{
+    font-weight: bold;
+}
+
+.right-bottom{
+    margin: 200px auto;
+}
+
+.member{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 1.5vw;
+    border: 1px solid black;
+    width: 60vw;
+}
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 10px;
+}
